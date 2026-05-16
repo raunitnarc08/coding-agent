@@ -1,0 +1,24 @@
+# API keys and environment
+.env
+*.env
+.env.*
+
+# Memory and results (personal data)
+agent_memory.json
+eval_results.json
+
+# Sandbox files (generated, not source)
+sandbox/*.py
+sandbox/*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
